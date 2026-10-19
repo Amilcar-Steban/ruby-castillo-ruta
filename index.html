@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Cómo llegar · Salón de Belleza Ruby Castillo</title>
+  <meta name="description" content="Video con la ruta para llegar al Salón de Belleza Ruby Castillo desde Cali Pan, barrio Prado.">
+  <meta name="theme-color" content="#FCE4EE">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Cómo llegar a Ruby Castillo · Salón de Belleza">
+  <meta property="og:description" content="Mira la ruta paso a paso desde Cali Pan, barrio Prado. ¡Te esperamos!">
+  <meta property="og:image" content="https://amilcar-steban.github.io/ruby-castillo-ruta/portada.jpg">
+  <meta property="og:url" content="https://amilcar-steban.github.io/ruby-castillo-ruta/">
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pink-soft: #FCE4EE;
+      --pink: #F6B8D1;
+      --pink-deep: #D9709C;
+      --rose-text: #9E3D6B;
+      --gold: #C9973A;
+      --gold-dark: #A87A26;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100vh;
+      font-family: Montserrat, system-ui, sans-serif;
+      color: var(--rose-text);
+      background: radial-gradient(circle at 50% 0%, #fff 0%, var(--pink-soft) 45%, var(--pink) 100%) fixed;
+      display: flex; flex-direction: column; align-items: center;
+      padding: 24px 16px 32px;
+    }
+    header { text-align: center; }
+    .logo { width: 104px; height: 104px; border-radius: 50%; box-shadow: 0 6px 24px rgba(201,151,58,.45); }
+    .kicker { margin: 14px 0 2px; font-size: 13px; font-weight: 700; letter-spacing: .3em; }
+    h1 {
+      margin: 0; font-family: Cinzel, serif; font-weight: 800; font-size: clamp(26px, 8vw, 40px); line-height: 1.1;
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 50%, #D7AE55 100%);
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .sub { margin: 6px 0 18px; font-size: 15px; }
+    .player {
+      width: 100%; max-width: 420px; aspect-ratio: 9 / 16; border-radius: 22px; overflow: hidden;
+      padding: 3px; background: linear-gradient(135deg, #F7E3A1, var(--gold), var(--gold-dark), #F7E3A1);
+      box-shadow: 0 14px 40px rgba(158,61,107,.25);
+    }
+    video { width: 100%; height: 100%; display: block; border-radius: 19px; background: #000; object-fit: cover; }
+    .hint { margin: 14px 0 0; font-size: 13px; opacity: .85; text-align: center; }
+    footer { margin-top: 22px; }
+    .pill {
+      display: inline-block; padding: 12px 30px; border-radius: 40px; border: 2px solid var(--gold);
+      background: linear-gradient(135deg, #F29CC1, var(--pink-deep)); color: #fff; font-weight: 700; font-size: 17px;
+      box-shadow: 0 6px 20px rgba(217,112,156,.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo" src="logo.png" alt="Logo Ruby Castillo Salón de Belleza">
+    <p class="kicker">CÓMO LLEGAR A</p>
+    <h1>Salón de Belleza<br>Ruby Castillo</h1>
+    <p class="sub">Ruta paso a paso desde Cali Pan · Barrio Prado</p>
+  </header>
+
+  <div class="player">
+    <video src="ruta-ruby-castillo.mp4" poster="portada.jpg" controls playsinline preload="metadata"></video>
+  </div>
+  <p class="hint">Toca ▶ para ver el video con sonido</p>
+
+  <footer><span class="pill">¡Te esperamos!</span></footer>
+</body>
+</html>
